@@ -1,10 +1,11 @@
 # python-REVIT-API
 Đây là 1 project để tôi có thể lưu trữ các đoạn mả và giải thích về các API của REVIT được viết.
 
-Tài liệu:
+Tài liệu và file:
  - [REVIT 2026](https://drive.google.com/file/d/1Sa2_jeIE9PyUkd2nIdfET08NyOALSWCo/view): đây là phiên bản mới nhất hiện nay.
  - [ pyRevit 5.2.0.25181 Installer](https://github.com/pyrevitlabs/pyRevit/releases/download/v5.2.0.25181%2B1332/pyRevit_5.2.0.25181_admin_signed.exe): Phiên bản Pyrevit mới nhất dành cho nhà phát triển.
  - [API REVIT 2026](https://www.revitapidocs.com/2026/): đây là nơi tra cứu các class chính trong REVIT API.
+- [REVIT API Developers Guide](https://help.autodesk.com/view/RVT/2024/ENU/?guid=Revit_API_Revit_API_Developers_Guide_html): code mẫu C# của [Autodesk](https://help.autodesk.com/view/RVT/2024/ENU/).
 
 # Tổng quan về Python trong REVIT
 
@@ -38,3 +39,12 @@ So sánh về hiệu năng: </br>
   </div>
 
 </div>
+
+
+# Bài học
+
+## [1. Cấu trúc của một extention](source/chuong_1/README.md)
+ - Hình dung được những extention trong revit được add-in vào có dạng như thế nào.
+ - Thêm extention vào trong revit.
+ - Viết 1 đoạn code "Hello World".
+ - show ra 1 hộp thoại "Hello World".
