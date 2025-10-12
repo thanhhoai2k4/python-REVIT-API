@@ -1,6 +1,4 @@
-# 1. Cấu trúc của một extention
-
-# 1.1 Nền tản lý thuyết về Database và User Interface trong REVIT API
+# Nền tản lý thuyết về Database và User Interface trong REVIT API
 Thông thường thì các API của Pyrevit sẽ được nằm ở Autodesk.
 <pre>
     import Autodek
@@ -9,25 +7,12 @@ Thông thường thì các API của Pyrevit sẽ được nằm ở Autodesk.
 </pre>
 output: là 1 danh sách bao gồm 1 phần tử. Nới đây chứa tất cả các API để tương tác với REVIT.
 
-Và trong Autodesk.Revit chứa các Class:
+Và trong Autodesk.Revit chứa các NameSpace:
 <pre>
     from Autodesk import Revit
     print(dir(Revit))
     output: ['ApplicationServices', 'Attributes', 'Creation', 'DB', 'Exceptions', 'UI']
 </pre>
-
-Giải thích về các class này: 
-- tao 1 cái bản
-- có 6 dòng và 1 cột
-- giải thích các class này
-
-VD:
-
-| Cột 1 | Cột 2 | Cột 3 |
-|-------|--------|-------|
-| Hàng 1 - A | Hàng 1 - B | Hàng 1 - C |
-| Hàng 2 - A | Hàng 2 - B | Hàng 2 - C |
-
 
 
 Document(doc): đây là đối tượng đại diện cho cơ sở dử liệu. Nó chứa tất cả các Element(Tường, cửa, ...) các cài đặt, thông tin dự án. Mọi thao tác <b>truy vấn</b> và <b>lọc</b> đều thông qua đối tượng này.
@@ -83,7 +68,7 @@ Cách hoạt động: Bạn truy cập vào UIDocument (giao diện người dù
 </pre>
 
 ## Parameters
-
+Cách hoạt động: Mỗi đối tượng Element có một tập hợp các Parameter. Bạn có thể truy cập chúng bằng tên hoặc BuiltInParameter. Việc thay đổi giá trị của một parameter phải được thực hiện bên trong một Transaction
 <pre>
     # Giả sử 'wall' là một đối tượng tường đã được lấy từ trước
     # (ví dụ: wall = walls[0] từ mục Filtering)
@@ -118,6 +103,7 @@ Cách hoạt động: Bạn truy cập vào UIDocument (giao diện người dù
 
 ##  Views
 
+Views là 1 cách thể hiện trực quản bản về của 3D (mặt cắt lầu 1, mặt cắt đứng, 3D Views).
 <pre>
 
     from Autodesk.Revit.DB import Transaction
