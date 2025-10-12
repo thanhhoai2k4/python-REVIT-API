@@ -2,7 +2,7 @@
 Đây là 1 project để tôi có thể lưu trữ các đoạn mả và giải thích về các API của REVIT được viết.
 
 Tài liệu và file:
- - [REVIT 2026](https://drive.google.com/file/d/1Sa2_jeIE9PyUkd2nIdfET08NyOALSWCo/view): đây là phiên bản mới nhất hiện nay.
+ - [REVIT 2026](https://drive.google.com/file/d/1Sa2_jeIE9PyUkd2nIdfET08NyOALSWCo/view): đây là phiên bản mới nhất hiện nay (pass: <b>vietcons.org</b>)
  - [ pyRevit 5.2.0.25181 Installer](https://github.com/pyrevitlabs/pyRevit/releases/download/v5.2.0.25181%2B1332/pyRevit_5.2.0.25181_admin_signed.exe): Phiên bản Pyrevit mới nhất dành cho nhà phát triển.
  - [API REVIT 2026](https://www.revitapidocs.com/2026/): đây là nơi tra cứu các class chính trong REVIT API.
 - [REVIT API Developers Guide](https://help.autodesk.com/view/RVT/2024/ENU/?guid=Revit_API_Revit_API_Developers_Guide_html): code mẫu C# của [Autodesk](https://help.autodesk.com/view/RVT/2024/ENU/).
