@@ -44,10 +44,9 @@ So sánh về hiệu năng: </br>
 # Bài học
 
 ## [1. Tương tác cơ bản với phần tử REVIT](source/chuong_1/README.md)
- - Filtering
- - Selection
- - Parameters
- - Collections
- - Editing Elements
- - Views
- - Transactions
+ - [Filtering](source/chuong_1/README.md#filtering)
+ - [Selection](source/chuong_1/README.md#Selection)
+ - [Parameters](source/chuong_1/README.md#Parameters)
+ - [Collections](source/chuong_1/README.md#Collections)
+ - [Views](source/chuong_1/README.md#Parameters)
+ - [Transactions](source/chuong_1/README.md#Parameters)
