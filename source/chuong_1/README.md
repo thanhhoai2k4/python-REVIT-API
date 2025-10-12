@@ -30,7 +30,7 @@ VD:
 
 
 
-        Document(doc): đây là đối tượng đại diện cho cơ sở dử liệu. Nó chứa tất cả các Element(Tường, cửa, ...) các cài đặt, thông tin dự án. Mọi thao tác <b>truy vấn</b> và <b>lọc</b> đều thông qua đối tượng này.
+Document(doc): đây là đối tượng đại diện cho cơ sở dử liệu. Nó chứa tất cả các Element(Tường, cửa, ...) các cài đặt, thông tin dự án. Mọi thao tác <b>truy vấn</b> và <b>lọc</b> đều thông qua đối tượng này.
 
-        UIDocument(uidoc): Đại diện cho lớp giao diện người dùng mà chúng ta đang tương tác. Nó quản lý những gì mà chúng ta thấy trên màn hình, cửa sổ và đặt biệt là các hành động lựa chọn đối tượng.
+UIDocument(uidoc): Đại diện cho lớp giao diện người dùng mà chúng ta đang tương tác. Nó quản lý những gì mà chúng ta thấy trên màn hình, cửa sổ và đặt biệt là các hành động lựa chọn đối tượng.
 
