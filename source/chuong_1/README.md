@@ -34,3 +34,24 @@ Document(doc): đây là đối tượng đại diện cho cơ sở dử liệu.
 
 UIDocument(uidoc): Đại diện cho lớp giao diện người dùng mà chúng ta đang tương tác. Nó quản lý những gì mà chúng ta thấy trên màn hình, cửa sổ và đặt biệt là các hành động lựa chọn đối tượng.
 
+
+## Lọc đối tượng
+
+Tìm tất cả các đối tượng tường.
+<pre>
+    # Import các thư viện cần thiết
+    from Autodesk.Revit.DB import FilteredElementCollector, BuiltInCategory, Wall
+
+    # Lấy document hiện hành
+    doc = __revit__.ActiveUIDocument.Document
+
+    # Bắt đầu Collector, lọc theo category là Walls và lấy về các element instances
+    walls = FilteredElementCollector(doc).OfCategory(BuiltInCategory.OST_Walls).WhereElementIsNotElementType().ToElements()
+
+    # In ra số lượng tường tìm thấy
+    print("Tìm thấy {} bức tường.".format(len(walls)))
+
+    for wall in walls:
+        # wall bây giờ là một đối tượng Wall, bạn có thể truy cập thuộc tính của nó
+        print("ID của tường: {}".format(wall.Id))
+</pre>
