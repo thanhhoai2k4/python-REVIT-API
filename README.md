@@ -43,8 +43,11 @@ So sánh về hiệu năng: </br>
 
 # Bài học
 
-## [1. Cấu trúc của một extention](source/chuong_1/README.md)
- - Hình dung được những extention trong revit được add-in vào có dạng như thế nào.
- - Thêm extention vào trong revit.
- - Viết 1 đoạn code "Hello World".
- - show ra 1 hộp thoại "Hello World".
+## [1. Tương tác cơ bản với phần tử REVIT](source/chuong_1/README.md)
+ - Filtering
+ - Selection
+ - Parameters
+ - Collections
+ - Editing Elements
+ - Views
+ - Transactions
