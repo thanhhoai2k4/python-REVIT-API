@@ -50,3 +50,7 @@ So sánh về hiệu năng: </br>
  - [Collections](source/chuong_1/README.md#Collections)
  - [Views](source/chuong_1/README.md#Parameters)
  - [Transactions](source/chuong_1/README.md#Parameters)
+
+## [REVIT và các yếu tố hình học]()
+
+- [Wall, Floors, Ceilings, Roofs and Openings](source/chuong_2/README.md#)
