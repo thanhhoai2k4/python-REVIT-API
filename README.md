@@ -53,4 +53,4 @@ So sánh về hiệu năng: </br>
 
 ## [2.REVIT và các yếu tố hình học]()
 
-- [Wall, Floors, Ceilings, Roofs and Openings](source/chuong_2/README.md#)
+- [Wall, Floors, Ceilings, Roofs and Openings](source/chuong_2/README.md#): tạo các đối tượng cơ bản.
