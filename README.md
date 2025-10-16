@@ -44,12 +44,12 @@ So sánh về hiệu năng: </br>
 # Bài học
 
 ## [1. Tương tác cơ bản với phần tử REVIT](source/chuong_1/README.md)
- - [Filtering](source/chuong_1/README.md#filtering)
- - [Selection](source/chuong_1/README.md#Selection)
- - [Parameters](source/chuong_1/README.md#Parameters)
- - [Collections](source/chuong_1/README.md#Collections)
- - [Views](source/chuong_1/README.md#Parameters)
- - [Transactions](source/chuong_1/README.md#Parameters)
+ - [Filtering](source/chuong_1/README.md#filtering): lọc đối tượng. Data -> lọc-> chọn đối tượng.
+ - [Selection](source/chuong_1/README.md#Selection): Chọn 1 đối tượng đang tồn tại trên view.
+ - [Parameters](source/chuong_1/README.md#Parameters): Cách thay đổi các giá trị tham số của 1 đối tượng
+ - [Collections](source/chuong_1/README.md#Collections): 1 tập hợp. có thể sử dụng for: <b>item in items</b>
+ - [Views](source/chuong_1/README.md#Parameters): là 1 khung hình biểu diển các đối tượng: ví dụ: L1, L2, ...
+ - [Transactions](source/chuong_1/README.md#Parameters): Khi thực hiện thêm xóa xửa . Phải đi qua Transactions.
 
 ## [2.REVIT và các yếu tố hình học]()
 
